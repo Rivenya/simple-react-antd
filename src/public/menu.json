@@ -1,0 +1,23 @@
+[
+  {
+    "name": "首页",
+    "icon": "table",
+    "router": "/dashboard"
+  },
+  {
+    "name": "表单页",
+    "icon": "table",
+    "router": "/form"
+  },
+  {
+    "name": "个人中心",
+    "icon": "table",
+    "children": [
+      {
+        "name": "个人设置",
+        "icon": "table",
+        "router": "/account/setting"
+      }
+    ]
+  }
+]
